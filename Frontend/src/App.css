@@ -1,0 +1,29 @@
+#middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* Corrected: was justify-center */
+  align-items: center;       /* Added for horizontal centering */
+  height: 100vh;
+  text-align: center;
+}
+
+#middle h1 {
+  font-size: 3rem;           /* Increased text size */
+  margin: 0;
+}
+
+#middle button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#middle button:hover {
+  background-color: #45a049;
+}
